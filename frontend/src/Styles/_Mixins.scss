@@ -69,6 +69,7 @@
 }
 
 @mixin btnPrimary {
+  text-align: center;
   border: solid 1px $appPrimary;
   background-color: transparent;
   color: $white;
@@ -78,5 +79,6 @@
   transition-duration: 0.5s;
   &:hover {
     background-color: mix($appPrimary, $bgPrimary, 30%);
+    text-decoration: none;
   }
 }
