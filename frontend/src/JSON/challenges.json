@@ -1,74 +1,113 @@
 [
   {
+    "id": 1,
     "name": "How did she die ???",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "tags": ["file upload", "exploit", "reverse shell"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
     "points": 25,
-    "completed": false,
+    "completed": true,
     "url": "http://level1.localhost:3000",
     "username": "Level01",
-    "password": "hlgjkfdhgjlkdfhgfdg"
+    "password": "heolkndhi"
   },
   {
-    "name": "How did she die ???",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    "points": 25,
+    "id": 2,
+    "name": "you can't find me",
+    "tags": ["SEO", "Information gathering"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 15,
     "completed": false,
-    "url": "http://level1.localhost:3000",
-    "username": "Level01",
-    "password": "hlgjkfdhgjlkdfhgfdg"
+    "url": "http://level3.localhost:3000",
+    "username": "Level02",
+    "password": "s4e1g4h5"
+  },
+
+  {
+    "id": 3,
+    "name": "The Sign of five",
+    "tags": ["Cryptography", "exploitation"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 20,
+    "completed": true,
+    "url": "http://level3.localhost:3000",
+    "username": "Level03",
+    "password": "pr@v55n"
   },
   {
-    "name": "How did she die ???",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    "points": 25,
+    "id": 4,
+    "name": "The Hound of the signs",
+    "tags": ["forensic", "reversing", "Steganography"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 35,
     "completed": false,
-    "url": "http://level1.localhost:3000",
-    "username": "Level01",
-    "password": "hlgjkfdhgjlkdfhgfdg"
+    "url": "http://level4.localhost:3000",
+    "username": "Level04",
+    "password": "$fya4t7p"
   },
   {
-    "name": "How did she die ???",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    "points": 25,
+    "id": 5,
+    "name": "who am I ??",
+    "tags": ["Web", "Information gathering", "SEO"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 20,
     "completed": false,
-    "url": "http://level1.localhost:3000",
-    "username": "Level01",
-    "password": "hlgjkfdhgjlkdfhgfdg"
+    "url": "http://level5.localhost:3000",
+    "username": "Level05",
+    "password": "2we4t6d"
   },
   {
-    "name": "How did she die ???",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    "points": 25,
+    "id": 6,
+    "name": "Command: Delete",
+    "tags": ["SEO", "pwn", "file upload"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 15,
     "completed": false,
-    "url": "http://level1.localhost:3000",
-    "username": "Level01",
-    "password": "hlgjkfdhgjlkdfhgfdg"
+    "url": "http://level6.localhost:3000",
+    "username": "Level06",
+    "password": "r@11al"
   },
   {
-    "name": "How did she die ???",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    "points": 25,
-    "completed": false,
-    "url": "http://level1.localhost:3000",
-    "username": "Level01",
-    "password": "hlgjkfdhgjlkdfhgfdg"
+    "id": 7,
+    "name": "Be My Guest",
+    "tags": ["exploit", "reverse shell"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 10,
+    "completed": true,
+    "url": "http://level7.localhost:3000",
+    "username": "Level07",
+    "password": "c0v1d1q"
   },
   {
-    "name": "How did she die ???",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    "points": 25,
+    "id": 8,
+    "name": "Last Minute",
+    "tags": ["Cryptography", "Information gathering"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 15,
     "completed": false,
-    "url": "http://level1.localhost:3000",
-    "username": "Level01",
-    "password": "hlgjkfdhgjlkdfhgfdg"
+    "url": "http://level8.localhost:3000",
+    "username": "Level08",
+    "password": "r@m5a9o"
   },
   {
-    "name": "How did she die ???",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    "points": 25,
+    "id": 9,
+    "name": "The Sixth Flag",
+    "tags": ["exploit", "reversing", "file upload"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 35,
     "completed": false,
-    "url": "http://level1.localhost:3000",
-    "username": "Level01",
-    "password": "hlgjkfdhgjlkdfhgfdg"
+    "url": "http://level9.localhost:3000",
+    "username": "Level09",
+    "password": "@pe21o"
+  },
+  {
+    "id": 10,
+    "name": "Take a close look",
+    "tags": ["Steganography"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 15,
+    "completed": true,
+    "url": "http://level10.localhost:3000",
+    "username": "Level10",
+    "password": "i@msh1t"
   }
 ]

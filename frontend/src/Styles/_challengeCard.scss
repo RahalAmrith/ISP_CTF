@@ -21,12 +21,20 @@
       flex: 1;
 
       h4 {
-        font-size: 16px;
-        margin-bottom: 0px;
+        font-size: 20px;
+        margin-bottom: 12px;
       }
       p {
-        font-size: 12px;
+        font-size: 10px;
+        height: 25px;
         margin-bottom: 0px;
+        span {
+          text-transform: capitalize;
+          padding: 2px 10px;
+          margin-right: 5px;
+          border: solid 1px $appPrimary;
+          border-radius: 24px;
+        }
       }
     }
 
@@ -40,6 +48,16 @@
         i {
           font-size: 30px;
           margin-right: 8px;
+        }
+      }
+
+      &.completed {
+        h1 {
+          color: $txtActive;
+
+          i {
+            color: $txtActive;
+          }
         }
       }
     }
@@ -67,19 +85,75 @@
     overflow: hidden;
     transition-duration: 0.7s;
     color: $txtColor;
-    padding-left: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 0px;
 
     &.open {
-      max-height: 100px;
+      margin-top: 25px;
+      max-height: 500px;
+    }
+    p {
+      font-size: 14px;
+      margin-bottom: 25px;
+      text-align: justify;
     }
 
-    table {
-      tr {
-        td {
-          padding: 0px 15px;
-          span {
-            cursor: pointer;
-            font-size: 10px;
+    .detailGrid {
+      @include centeredRow;
+      table {
+        font-size: 14px;
+        flex: 1;
+        tr {
+          td {
+            padding: 0px 15px;
+            a {
+              cursor: pointer;
+              font-size: 14px;
+              color: $txtActive;
+            }
+            span {
+              cursor: pointer;
+              font-size: 10px;
+              color: $txtActive;
+            }
+          }
+        }
+      }
+
+      .form {
+        flex: 1;
+        padding: 0px 35px;
+        form {
+          .form_group {
+            @include formGroup;
+            margin-bottom: 0px;
+
+            input {
+              background-color: $bgPrimary;
+              font-size: 12px;
+              padding: 8px;
+            }
+
+            button {
+              width: min-content;
+              font-size: 14px;
+              padding: 5px 15px;
+            }
+          }
+        }
+      }
+
+      .completed {
+        flex: 1;
+        padding: 15px;
+        @include centeredBox;
+        h1 {
+          color: $txtActive;
+          font-size: 35px;
+
+          i {
+            margin-right: 15px;
           }
         }
       }

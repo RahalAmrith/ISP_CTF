@@ -4,12 +4,16 @@ import { useHistory } from "react-router-dom";
 // redux
 import { useSelector, useDispatch } from "react-redux";
 import { signin } from "../actions/auth";
+import { addPackage } from "../actions/Packages";
+
+const myPackages = require("../JSON/myPackages.json");
 
 const Login = (props) => {
   const history = useHistory();
-  const dispatcher = useDispatch();
   const [loginError, setLoginError] = useState(false);
   const [loginSuccess, setLoginSuccess] = useState(false);
+
+  const dispatcher = useDispatch();
 
   const handleSignin = (e) => {
     e.preventDefault();
@@ -19,6 +23,7 @@ const Login = (props) => {
       setLoginError(false);
       setLoginSuccess(true);
       dispatcher(signin(mail));
+      myPackages.map((data) => dispatcher(addPackage(data)));
       setTimeout(() => {
         history.push("/dashboard");
       }, 3000);

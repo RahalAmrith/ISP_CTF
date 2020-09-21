@@ -4,7 +4,7 @@ import { Link, useLocation, useRouteMatch } from "react-router-dom";
 // Components
 import ChallengeCard from "./Components/challengeCard";
 
-const packageList = require("../JSON/packages.json");
+const packageList = require("../JSON/myPackages.json");
 const challengesList = require("../JSON/challenges.json");
 
 const Package = (props) => {
@@ -30,7 +30,7 @@ const Package = (props) => {
     <div className="appPage packageWrapper">
       <div className="container">
         <div className="titleSection">
-          <img alt={data.name} src={`/Images/Packages/${data.image}`} />
+          <img alt={data.name} src={data.image} />
           <div className="info">
             <h3>{data.name}</h3>
             <p>{data.description}</p>

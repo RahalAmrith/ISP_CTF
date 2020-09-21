@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useHistory } from "react-router-dom";
+import { Link, NavLink, useHistory } from "react-router-dom";
 
 // redux
 import { useSelector, useDispatch } from "react-redux";
@@ -25,32 +25,32 @@ const Header = (props) => {
       <div className="nav">
         <ul>
           <li>
-            <Link className="link" to="/about">
+            <NavLink className="link" to="/about">
               About
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link className="link" to="/howto">
+            <NavLink className="link" to="/howto">
               How to
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link className="link" to="/packages">
+            <NavLink className="link" to="/packages">
               Packages
-            </Link>
+            </NavLink>
           </li>
           {!authState.isSignedin ? (
             <li>
-              <Link className="link" to="/login">
+              <NavLink className="link" to="/login">
                 Login
-              </Link>
+              </NavLink>
             </li>
           ) : null}
           {!authState.isSignedin ? (
             <li>
-              <Link className="btnLink" to="/signup">
+              <NavLink className="btnLink" to="/signup">
                 Join now
-              </Link>
+              </NavLink>
             </li>
           ) : null}
           {authState.isSignedin ? (
@@ -66,19 +66,19 @@ const Header = (props) => {
                   {authState.email}
                 </button>
                 <div className="dropdown-menu">
-                  <Link className="dropdown-item" to="/dashboard">
+                  <NavLink className="dropdown-item" to="/dashboard">
                     Dashboard
-                  </Link>
-                  <Link className="dropdown-item" to="/profile">
+                  </NavLink>
+                  <NavLink className="dropdown-item" to="/profile">
                     Profile
-                  </Link>
-                  <Link
+                  </NavLink>
+                  <NavLink
                     onClick={(e) => handleSignOut(e)}
                     className="dropdown-item"
                     to="/"
                   >
                     Signout
-                  </Link>
+                  </NavLink>
                 </div>
               </div>
             </li>

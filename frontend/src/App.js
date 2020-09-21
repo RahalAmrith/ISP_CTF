@@ -13,6 +13,7 @@ import ProtectedRoute from "./ProtectedRoute";
 import Header from "./Views/Header";
 import Login from "./Views/Login";
 import SignUp from "./Views/SignUp";
+import Packages from "./Views/Packages";
 import Dashboard from "./Views/Dashboard";
 import Package from "./Views/Package";
 
@@ -41,6 +42,12 @@ function App() {
             strict
             path="/signup"
             render={(props) => <SignUp {...props} />}
+          />
+          <Route
+            exact
+            strict
+            path="/packages"
+            render={(props) => <Packages {...props} />}
           />
           <ProtectedRoute
             exact
