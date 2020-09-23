@@ -3,7 +3,6 @@ import React, { useState } from "react";
 const ChallengeCard = (props) => {
   const [showDetails, setShowDetails] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
-
   return (
     <div className="challengeCard_Wrapper">
       <div className="info">
@@ -51,8 +50,8 @@ const ChallengeCard = (props) => {
             <tr>
               <td>Url :</td>
               <td>
-                <a target="_blank" href={props.data.url}>
-                  {props.data.url}
+                <a target="_blank" href={`http://level${props.data.id}.${window.location.host}`}>
+                  {`http://level${props.data.id}.${window.location.host}`}
                 </a>
               </td>
             </tr>

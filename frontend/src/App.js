@@ -5,6 +5,7 @@ import Cookies from "js-cookie";
 // redux
 import { useSelector, useDispatch } from "react-redux";
 import { signin } from "./actions/auth";
+import { addPackage } from "./actions/Packages";
 
 // protectedRout
 import ProtectedRoute from "./ProtectedRoute";
@@ -20,11 +21,16 @@ import Package from "./Views/Package";
 // styles
 import "./Styles/main.scss";
 
+// data
+
+const myPackages = require("./JSON/myPackages.json");
+
 function App() {
   const dispatcher = useDispatch();
   if (Cookies.get("isSignedin")) {
     const mail = Cookies.get("uM");
     dispatcher(signin(mail));
+    myPackages.map((data) => dispatcher(addPackage(data)));
   }
   return (
     <div className="App">

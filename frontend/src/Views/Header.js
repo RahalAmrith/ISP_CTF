@@ -18,9 +18,11 @@ const Header = (props) => {
   return (
     <div className="headerWrapper">
       <div className="logo">
-        <h1>
-          The <span>X</span> CTF
-        </h1>
+        <Link to="/">
+          <h1>
+            The <span>X</span> CTF
+          </h1>
+        </Link>
       </div>
       <div className="nav">
         <ul>

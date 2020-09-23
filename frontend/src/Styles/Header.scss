@@ -11,16 +11,20 @@
   .logo {
     height: 100%;
     @include centeredBox;
-    h1 {
-      font-size: 22px;
-      font-family: "Kaushan Script", cursive;
-      margin-bottom: 0px;
-      @include centeredBox;
-      span {
+    a {
+      text-decoration: none;
+      color: unset;
+      h1 {
+        font-size: 22px;
         font-family: "Kaushan Script", cursive;
-        font-size: 40px;
-        color: $appPrimary;
-        padding: 8px;
+        margin-bottom: 0px;
+        @include centeredBox;
+        span {
+          font-family: "Kaushan Script", cursive;
+          font-size: 40px;
+          color: $appPrimary;
+          padding: 8px;
+        }
       }
     }
   }
