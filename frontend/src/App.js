@@ -12,6 +12,8 @@ import ProtectedRoute from "./ProtectedRoute";
 
 // Pages
 import Header from "./Views/Header";
+import Landing from "./Views/Landing";
+import AboutUs from "./Views/AboutUs";
 import Login from "./Views/Login";
 import SignUp from "./Views/SignUp";
 import Packages from "./Views/Packages";
@@ -37,6 +39,18 @@ function App() {
       <Router>
         <Route exact strict render={(props) => <Header {...props} />} />
         <Switch>
+          <Route
+            exact
+            strict
+            path="/"
+            render={(props) => <Landing {...props} />}
+          />
+          <Route
+            exact
+            strict
+            path="/about"
+            render={(props) => <AboutUs {...props} />}
+          />
           <Route
             exact
             strict
