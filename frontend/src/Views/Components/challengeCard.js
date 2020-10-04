@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useRouteMatch } from "react-router-dom";
 
 const ChallengeCard = (props) => {
   const [showDetails, setShowDetails] = useState(false);
@@ -50,8 +51,16 @@ const ChallengeCard = (props) => {
             <tr>
               <td>Url :</td>
               <td>
-                <a target="_blank" href={`http://level${props.data.id}.${window.location.host}`}>
-                  {`http://level${props.data.id}.${window.location.host}`}
+                <a
+                  target="_blank"
+                  href={`http://level${
+                    props.data.id
+                  }.${window.location.host.replace("www.", "")}`}
+                >
+                  {`http://level${props.data.id}.${window.location.host.replace(
+                    "www.",
+                    ""
+                  )}`}
                 </a>
               </td>
             </tr>
