@@ -1,9 +1,26 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useRouteMatch } from "react-router-dom";
 
 const ChallengeCard = (props) => {
   const [showDetails, setShowDetails] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
+
+  const [Completed, setCompleted] = useState(false);
+
+  useEffect(() => {
+    setCompleted(props.data.completed);
+  }, [props]);
+
+  const submitFlag = (e) => {
+    e.preventDefault();
+    if (e.target.flag.value === props.data.flag) {
+      setCompleted(true);
+      alert("Nice Work...");
+    } else {
+      setCompleted(false);
+      alert("Oops...\nTry harder...");
+    }
+  };
   return (
     <div className="challengeCard_Wrapper">
       <div className="info">
@@ -20,11 +37,9 @@ const ChallengeCard = (props) => {
             })}
           </p>
         </div>
-        <div className={props.data.completed ? "points completed" : "points"}>
+        <div className={Completed ? "points completed" : "points"}>
           <h1>
-            <i
-              className={props.data.completed ? "fas fa-star" : "far fa-star"}
-            ></i>
+            <i className={Completed ? "fas fa-star" : "far fa-star"}></i>
             {props.data.points}
           </h1>
         </div>
@@ -53,11 +68,11 @@ const ChallengeCard = (props) => {
               <td>
                 <a
                   target="_blank"
-                  href={`http://level${
-                    props.data.id
+                  href={`http://${
+                    props.data.url
                   }.${window.location.host.replace("www.", "")}`}
                 >
-                  {`http://level${props.data.id}.${window.location.host.replace(
+                  {`http://${props.data.url}.${window.location.host.replace(
                     "www.",
                     ""
                   )}`}
@@ -81,7 +96,7 @@ const ChallengeCard = (props) => {
               </td>
             </tr>
           </table>
-          {props.data.completed ? (
+          {Completed ? (
             <div className="completed">
               <h1>
                 <i className="far fa-check-circle"></i>Completed
@@ -89,11 +104,11 @@ const ChallengeCard = (props) => {
             </div>
           ) : (
             <div className="form">
-              <form>
+              <form onSubmit={(e) => submitFlag(e)}>
                 <div className="form_group">
                   <input
                     type="text"
-                    name="password"
+                    name="flag"
                     placeholder="XCTF{ Your flag here }"
                   />
                 </div>
