@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <h1>Log In</h1>
+        <br />
+        <h5>Please enter your username and password to log in</h5>
+        <form method="POST" action="login.php">
+          <div class="formGroup">
+            <input
+              type="text"
+              name="userName"
+              id="uName"
+              placeholder="User Name"
+            />
+          </div>
+          <div class="formGroup">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+          </div>
+          <div class="formGroup">
+            <input type="submit" name="submit" id="submit" value="Login" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
