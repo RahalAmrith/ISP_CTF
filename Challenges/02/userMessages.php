@@ -26,7 +26,7 @@ if (strpos(base64_decode($_COOKIE["uR"]), "'admin'") !== false) {
       <?php if ($isAdmin) {
         include "messages.php";
       } else {
-        echo "<h1> Plese Sign in as admin</h1>";
+        echo "<h1> Please Sign in as Admin</h1>";
       }  ?>
     </div>
   </div>
