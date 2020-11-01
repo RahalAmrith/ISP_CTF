@@ -6,7 +6,7 @@ const Home = (props) => {
     <div>
       {/* <!-- Start main image and the text below --> */}
       <div className="col-md-12 wow fadeIn" data-wow-delay="0.1s">
-        <img src="http://cdn.p02c01.thexctf.site/main-banner.jpg" alt="img" className="resp main-image" />
+        <img src="http://thexctf.site:8888/main-banner.jpg" alt="img" className="resp main-image" />
         <h1>Hat design</h1>
         <div className="hr"></div>
         <h2>
@@ -40,7 +40,7 @@ const Home = (props) => {
         <div className="first">
           <div className="square wow fadeInDown" data-wow-delay=".5s"></div>
         </div>
-        <img src="http://cdn.p02c01.thexctf.site/photo.jpg" alt="img" className="photo-home" />
+        <img src="http://thexctf.site:8888/photo.jpg" alt="img" className="photo-home" />
       </div>
       {/* <!-- End right image --> */}
     </div>

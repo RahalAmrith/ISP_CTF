@@ -66,7 +66,7 @@ const Collection = (props) => {
             <div className="portfolio-item autumn col-xs-12 col-sm-12 col-md-4 thumbs">
               <figure className="effect-moses wow fadeIn">
                 <a href="img/image2.jpg">
-                  <img src="http://cdn.p02c01.thexctf.site/image2.jpg" alt="" />
+                  <img src="http://thexctf.site:8888/image2.jpg" alt="" />
                   <figcaption>
                     <h2>PHOTO2</h2>
                     <p>
@@ -81,7 +81,7 @@ const Collection = (props) => {
             <div className="portfolio-item spring col-xs-12 col-sm-12 col-md-4 thumbs">
               <figure className="effect-moses wow fadeIn">
                 <a href="img/image3.jpg">
-                  <img src="http://cdn.p02c01.thexctf.site/image3.jpg" alt="" />
+                  <img src="http://thexctf.site:8888/image3.jpg" alt="" />
                   <figcaption>
                     <h2>PHOTO3</h2>
                     <p>
@@ -96,7 +96,7 @@ const Collection = (props) => {
             <div className="portfolio-item spring col-xs-12 col-sm-12 col-md-4 thumbs">
               <figure className="effect-moses wow fadeIn">
                 <a href="img/image4.jpg">
-                  <img src="http://cdn.p02c01.thexctf.site/image4.jpg" alt="" />
+                  <img src="http://thexctf.site:8888/image4.jpg" alt="" />
                   <figcaption>
                     <h2>PHOTO4</h2>
                     <p>
@@ -111,7 +111,7 @@ const Collection = (props) => {
             <div className="portfolio-item summer col-xs-12 col-sm-12 col-md-4 thumbs">
               <figure className="effect-moses wow fadeIn">
                 <a href="img/image5.jpg">
-                  <img src="http://cdn.p02c01.thexctf.site/image5.jpg" alt="" />
+                  <img src="http://thexctf.site:8888/image5.jpg" alt="" />
                   <figcaption>
                     <h2>PHOTO5</h2>
                     <p>
@@ -126,7 +126,7 @@ const Collection = (props) => {
             <div className="portfolio-item summer col-xs-12 col-sm-12 col-md-4 thumbs">
               <figure className="effect-moses wow fadeIn">
                 <a href="img/image6.jpg">
-                  <img src="http://cdn.p02c01.thexctf.site/image6.jpg" alt="" />
+                  <img src="http://thexctf.site:8888/image6.jpg" alt="" />
                   <figcaption>
                     <h2>PHOTO6</h2>
                     <p>
@@ -141,7 +141,7 @@ const Collection = (props) => {
             <div className="portfolio-item autumn col-xs-12 col-sm-12 col-md-4 thumbs">
               <figure className="effect-moses wow fadeIn">
                 <a href="img/image7.jpg">
-                  <img src="http://cdn.p02c01.thexctf.site/image7.jpg" alt="" />
+                  <img src="http://thexctf.site:8888/image7.jpg" alt="" />
                   <figcaption>
                     <h2>PHOTO7</h2>
                     <p>
@@ -156,7 +156,7 @@ const Collection = (props) => {
             <div className="portfolio-item autumn col-xs-12 col-sm-12 col-md-4 thumbs">
               <figure className="effect-moses wow fadeIn">
                 <a href="img/image8.jpg">
-                  <img src="http://cdn.p02c01.thexctf.site/image8.jpg" alt="" />
+                  <img src="http://thexctf.site:8888/image8.jpg" alt="" />
                   <figcaption>
                     <h2>PHOTO8</h2>
                     <p>
@@ -171,7 +171,7 @@ const Collection = (props) => {
             <div className="portfolio-item spring col-xs-12 col-sm-12 col-md-4 thumbs">
               <figure className="effect-moses wow fadeIn">
                 <a href="img/image9.jpg">
-                  <img src="http://cdn.p02c01.thexctf.site/image9.jpg" alt="" />
+                  <img src="http://thexctf.site:8888/image9.jpg" alt="" />
                   <figcaption>
                     <h2>PHOTO9</h2>
                     <p>

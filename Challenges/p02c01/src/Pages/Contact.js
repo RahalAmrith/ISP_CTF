@@ -48,7 +48,7 @@ const Contact = (props) => {
 
       {/* <!-- Start right image --> */}
       <div className="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-        <img src="http://cdn.p02c01.thexctf.site/contact.jpg" alt="img" className="photo-contact" />
+        <img src="http://thexctf.site:8888/contact.jpg" alt="img" className="photo-contact" />
       </div>
       {/* <!-- End right image --> */}
     </div>

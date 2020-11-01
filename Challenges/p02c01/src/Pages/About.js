@@ -42,7 +42,7 @@ const About = (props) => {
 
         {/* <!-- Start right image --> */}
         <div className="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-          <img src="http://cdn.p02c01.thexctf.site/about1.jpg" alt="" className="photo-about" />
+          <img src="http://thexctf.site:8888/about1.jpg" alt="" className="photo-about" />
         </div>
         {/* <!-- End right image --> */}
       </div>
@@ -57,7 +57,7 @@ const About = (props) => {
           className="col-md-6 wow fadeIn col-md-offset-1"
           data-wow-delay="0.1s"
         >
-          <img src="http://cdn.p02c01.thexctf.site/about.jpg" alt="" className="photo-about" />
+          <img src="http://thexctf.site:8888/about.jpg" alt="" className="photo-about" />
         </div>
         {/* <!-- End right image --> */}
         {/* <!-- Start left column --> */}
