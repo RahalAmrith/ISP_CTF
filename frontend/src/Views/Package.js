@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation, useRouteMatch } from "react-router-dom";
-
+import { useSelector, useDispatch } from "react-redux";
 // Components
 import ChallengeCard from "./Components/challengeCard";
 
-const packageList = require("../JSON/myPackages.json");
+// const packageList = require("../JSON/myPackages.json");
 const challengesList = require("../JSON/challenges.json");
 
 const Package = (props) => {
@@ -12,7 +12,10 @@ const Package = (props) => {
   const match = useRouteMatch();
   const pId = Number.parseInt(match.params.id);
 
+  const packageList = useSelector((state) => state.Packages);
+
   const [data, setdata] = useState({});
+  const [ChallengesList, setChallengesList] = useState([]);
 
   useEffect(() => {
     const getData = () => {
@@ -24,6 +27,16 @@ const Package = (props) => {
     };
 
     getData();
+
+    var cList = [];
+    try {
+      cList = require(`../JSON/challenges/${pId}.json`);
+      console.log(cList);
+    } catch (error) {
+      cList = [];
+      console.error("Error : ", error);
+    }
+    setChallengesList(cList);
   }, []);
 
   return (
@@ -60,7 +73,7 @@ const Package = (props) => {
           <hr />
         </div>
 
-        {challengesList.map((data, i) => {
+        {ChallengesList.map((data, i) => {
           return <ChallengeCard data={data} key={i} index={i} />;
         })}
       </div>

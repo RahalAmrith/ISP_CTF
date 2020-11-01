@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "name": "Anguler | Basic",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,",
-    "image": "https://cdn.searchenginejournal.com/wp-content/uploads/2019/04/the-seo-guide-to-angular-760x400.png",
-    "challenges_total": 10,
+    "name": "General Skills - Web | Basic",
+    "description": "This packge contains the challenges which will help you to undestand the basic skill that you need to hack in to web applications",
+    "image": "/Images/Packages/01.jpg",
+    "challenges_total": 18,
     "challenges_completed": 7,
-    "lastUpdate": "15-08-2020",
-    "subscriptions": 129
+    "lastUpdate": "25-09-2020",
+    "subscriptions": 238
   },
   {
     "id": 2,

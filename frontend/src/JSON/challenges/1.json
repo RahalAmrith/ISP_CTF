@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Client Side is not good...",
+    "tags": ["Javscript", "Front-end", "Encoding"],
+    "description": "Make sure you do not forget your password otherwise there is no any option to reset your password.....",
+    "points": 25,
+    "completed": false,
+    "url": "p01c01",
+    "username": "Level01",
+    "password": "heolkndhi",
+    "flag": "XCTF{client_side_is_bad_0101001}"
+  },
+  {
+    "id": 2,
+    "name": "Admin Login",
+    "tags": ["Cookies"],
+    "description": "Someone have sent very importent message to admin. It seems like only admin users can view the messages.",
+    "points": 15,
+    "completed": false,
+    "url": "p01c02",
+    "username": "Level02",
+    "password": "s4e1g4h5",
+    "flag": "XCTF{Cookies_are_everywhere_0102000}"
+  }
+]
