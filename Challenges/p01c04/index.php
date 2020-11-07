@@ -1,4 +1,4 @@
 <?php
-	header('Location: /X10.php', true, 301);
+	header('Location: /K10.php', true, 301);
 	exit;
 ?>
