@@ -22,5 +22,41 @@
     "username": "Level02",
     "password": "s4e1g4h5",
     "flag": "XCTF{Cookies_are_everywhere_0102000}"
+  },
+  {
+    "id": 3,
+    "name": "The Sign of two five six",
+    "tags": ["Cryptography", "Cryptanalysis"],
+    "description": "Developer of the site is true fan of encryption. His site proves it",
+    "points": 40,
+    "completed": false,
+    "url": "p01c03",
+    "username": "Level103",
+    "password": "pr@v55n",
+    "flag": "XCTF{Common_passwords_brings_bad luck}"
+  },
+  {
+    "id": 4,
+    "name": "Moved Permanently",
+    "tags": ["Redirection", "HTTP Status"],
+    "description": "It seems like someone gave you a wrong URL",
+    "points": 20,
+    "completed": false,
+    "url": "p01c04",
+    "username": "Level105",
+    "password": "r@h@1_4_5",
+    "flag": "XCTF{Redirects_are_importent}"
+  },
+  {
+    "id": 5,
+    "name": "The login",
+    "tags": ["SQLi", "HTTP Status"],
+    "description": "I wonder if the users are kept in a database?",
+    "points": 10,
+    "completed": false,
+    "url": "p01c05",
+    "username": "Level105",
+    "password": "hklkjhklkjh",
+    "flag": "XCTF{Always_use_prepared_SQL_statements}"
   }
 ]
