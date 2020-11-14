@@ -58,5 +58,29 @@
     "username": "Level105",
     "password": "hklkjhklkjh",
     "flag": "XCTF{Always_use_prepared_SQL_statements}"
+  },
+  {
+    "id": 6,
+    "name": "Mr. Robot",
+    "tags": ["Robots", "Web crawlers"],
+    "description": "Robots will do everything for you",
+    "points": 15,
+    "completed": false,
+    "url": "p01c06",
+    "username": "Level106",
+    "password": "ldpaeckrf",
+    "flag": "XCTF{Y0U_533_8U7_Y0U_D0_N07_0853RV3}"
+  },
+  {
+    "id": 7,
+    "name": "The message",
+    "tags": ["Cryptography", "historical ciphers"],
+    "description": "Sherlocck have sent you a message. try to understand it",
+    "points": 20,
+    "completed": false,
+    "url": "p01c07",
+    "username": "Level107",
+    "password": "'flkdjafpoi'",
+    "flag": "XCTF{to a great mind, nothing is little}"
   }
 ]
