@@ -82,7 +82,7 @@
     "username": "Level107",
     "password": "flkdjafpoi",
     "flag": "XCTF{to a great mind, nothing is little}"
-  }
+  },
   {
     "id": 8,
     "name": "The Pssword",
@@ -93,6 +93,6 @@
     "url": "p01c08",
     "username": "Level108",
     "password": "lkweqmnled",
-    "flag": "XCTF{to a great mind, nothing is little}"
+    "flag": "XCTF{The_Game_is_Afoot}"
   }
 ]
